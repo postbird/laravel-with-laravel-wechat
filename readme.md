@@ -1,3 +1,16 @@
+## 0 更新日志：
+###2018-03-23
+
+新增测试方法：（某些项目上线后，调试起来不能直接 dump，因此开了一个测试的路由，用于进行 dump 或者其他的测试，在项目上线的时候，可以直无缝迁移到稳定的路由上面即可）
+
+1. 增加 `Wechat/TestController.php`
+2. 增加 路由 `/test/wechat` 和 `/test/jssdkconfig`
+
+
+
+
+
+
 ## 一、需求
 
 因为很多自己开发的 H5 是在微信中进行传播的，因此使用 JSSDK 是必不可少的环节。
@@ -229,6 +242,7 @@ $(document).ready(function(){
 ```javascript
 shareLinkUlr = shareLinkUlr.replace(/\&/g, '%26'); // 将 & 替换成 %26 
 ```
+
 
 
 
