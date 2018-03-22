@@ -59,10 +59,10 @@ return [
      */
     'official_account' => [
         'default' => [
-            'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wxb35ebb8854c83de5'),         // AppID
-            'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '2c30fdf631ac24c0d4eb087264680097'),    // AppSecret
-            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'polisdesign789'),           // Token
-            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', 'oYgGOgpxtj2p8nrGEO87tOYA6JNMjZodLhKhSIfqurh'),                 // EncodingAESKey
+            'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', ''),         // AppID
+            'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', ''),    // AppSecret
+            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', ''),           // Token
+            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
 
             /*
              * OAuth 配置

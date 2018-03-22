@@ -20,3 +20,8 @@ Route::namespace("Wechat")->group(function(){
     Route::any('/wechat','WechatController@index');
     Route::any('/jssdkconfig','WechatController@getJSSDKConfig');
 });
+// 微信测试方面的路由
+Route::prefix('test')->namespace("Wechat")->group(function(){
+    Route::any('wechat','TestController@index');
+    Route::any('jssdkconfig','TestController@getJSSDKConfig');
+});
